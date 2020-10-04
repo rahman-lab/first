@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color:#4867AA;
+    padding: 8px  0px;
+}
+.container{
+    width: 65%;
+    margin: auto;
+  
+}
+header::after{
+    content: '';
+    clear: both;
+  display: block;
+}
+ .logo-area{
+     width: 30%;
+     float: left;
+ }
+ .login-area{
+     width: 70%;
+     float: left;
+     color: white;
+    
+ }
+ .logo-area img{
+     width: 170px;
+     margin-top: 20px;
+ }
+ .login-area form{
+     float: right;
+ }
+ .login-area label,
+ .login-area input{
+     display: block;
+     font-size: 12px;
+      
+ }
+ .login-area input{
+     border: 1px solid black;
+     outline: none;
+     padding: 2px 4px;
+ }
+ .login-area .password a{
+     color: white;
+     text-decoration: none;
+     font-size: 12px;
+ }
+ .login-area .password a:hover{
+     text-decoration: underline;
+      
+ } 
+
+.login-area .email,
+.login-area .password,
+.login-area .login {
+    float: left;
+    margin-right: 10px;
+}
+.login-area .login{
+    margin-right: 0;
+}
+.login-area input[ type="submit"]{
+   display: block;
+ border:1px solid #3D5B99;
+  background-color: #415E9B;
+ font-weight: 400;
+  color: white;
+  margin-top: 18px;
+  border-radius: 2px;
+}
+.login-area input[ type="submit"]:hover{
+   background-color:#4867AA ;
+}
+/*end header section */
+ .signup-area{
+     height: 70vh;
+     background-color:#EBEDF0 ;
+     
+ }
+.main{
+     padding: 10px;
+   height: 60vh;
+   width: 45%;
+   margin-left: 200px;
+   
+
+}
+.main h2{
+    font-size: 30px;
+    font-weight:600;
+    margin-top: 20px;
+ }
+.main p{
+    font-weight: bold;
+    color: gray;
+}
+.full-name input[type="text"]{
+ width: 146px;
+     padding: 2px;
+    margin: 0;
+    border: none;
+    background-color:white;
+    border-radius: 2px;
+    font-weight:bold ;
+    outline: none;
+    margin-top: 5px;
+    
+ 
+}
+.main input[ type="email"],
+.main input[ type="password"]{
+  
+    padding: 2px;
+    margin: 0;
+    border: none;
+    background-color:white;
+    border-radius: 2px;
+    font-weight:bold ;
+    outline: none;
+    margin-top: 5px;
+    width: 300px;
+   
+}
+.birthday h4{
+    color: gray;
+    margin-top: 5px;
+}
+.birthday .birth-date{
+   border-radius: 4px;
+    margin: 0px;
+    padding: 2px 5px;
+    margin-top: 5px;
+  
+}
+ 
+.gender{
+    color:black;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.text-box{
+    color: lightslategray;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.gender i{
+    color: gray;
+}
+.birth-date i{
+    color: gray;
+}
+.sign-up input[ type="submit"]{
+    background: linear-gradient(#67ae55, #578843);
+    width: 120px;
+    padding: 4px 8px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid gray;
+    text-align: center;
+    color: white;
+  
+
+}
+.sign-up input[ type="submit"]:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+/* start footer area*/
+.footer-area ul{
+    margin: 0;
+    padding: 20px 0px;
+}
+.footer-area ul li{
+    display: inline; 
+}
+
+.footer-area .top ul li{
+    margin-right: 5px; 
+}
+.footer-area .top ul li.active a{
+    color: gray;
+}
+.footer-area .middle ul li.active a{
+    color: gray;
+}
+.footer-area .top ul li:last-child,
+.footer-area .middle li:last-child{
+    margin-top: 0;
+}
+.footer-area .top ul li:last-child{
+    border: 1px solid #9999;
+    padding: 0 6px;
+}
+.footer-area .middle ul li{
+    margin-right: 10px;
+  
+}
+.footer-area .middle{
+    margin-bottom: 0px;
+    line-height: 14px;
+}
+
+.footer-area ul li a{
+    text-decoration: none;
+    color: #385898;
+    font-size: 10px;
+  
+    font-weight: 600;
+
+}
+.footer-area hr{
+    border-bottom: 1px solid #dddfe2;
+   
+    
+}
+
+.footer-area .bottom p{
+    color: #6b5e5e;
+    font-size: 10px;
+
+}
+.footer-area .top ul li a:hover,
+.footer-area .middle ul li a:hover{
+    text-decoration: underline;
+}
+ 
